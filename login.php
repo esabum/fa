@@ -24,11 +24,11 @@ $lblSendPasswordResetLink = $objLabel->get_Label("lblSendPasswordResetLink", 2);
 <html>
     <head>
         <meta charset="utf-8">
-        <title>Test</title>
+        <title>Mi Factura CR</title>
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta content="" name="description" />
         <meta content="themes-lab" name="author" />
-        <link rel="shortcut icon" href="assets/images/icon.png">
+        <!--<link rel="shortcut icon" href="assets/images/icon.png">-->
         <link rel="stylesheet" type="text/css" href="assets/css/style.css"/>
         <link rel="stylesheet" type="text/css" href="assets/css/ui.css"/>
         <link rel="stylesheet" type="text/css" href="assets/plugins/bootstrap-loading/lada.min.css"/>

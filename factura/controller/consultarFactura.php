@@ -42,7 +42,7 @@ if ($Token) {
     curl_close($chMH);
     $jsonmh = json_decode($resultmh, true);
     print_r($jsonmh);
-    if (array_key_exists("resp", $jsonmh)) {
+    if (array_key_exists("resp", $jsonmh) && is_array($jsonmh["resp"])) {
         if (array_key_exists("ind-estado", $jsonmh["resp"])) {
             /*
             

@@ -30,15 +30,15 @@ $lblAvailable = $objLabel->get_Label("lblAvailable", $SelLang);
         <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
         <meta name="description" content="Test">
 
-        <link rel="icon" type="image/png" href="/assets/images/icon.png">
-        <title>Test</title>
+        <!--<link rel="icon" type="image/png" href="/assets/images/icon.png">-->
+        <title>Mi Factura CR</title>
         <link href="//fonts.googleapis.com/css?family=Nothing+You+Could+Do" rel="stylesheet" type="text/css">
 
-        <link href="/<?=APPBASE?>assets/css/style.css" rel="stylesheet"> <!-- MANDATORY -->
-        <link href="/<?=APPBASE?>assets/css/theme.css" rel="stylesheet"> <!-- MANDATORY -->
-        <link href="/<?=APPBASE?>assets/css/ui.css" rel="stylesheet"> <!-- MANDATORY -->
-        <link href="/<?=APPBASE?>assets/css/custom.css" rel="stylesheet">
-        <link href="/<?=APPBASE?>assets/plugins/datatables/dataTables.min.css" rel="stylesheet">
+        <link href="/assets/css/style.css" rel="stylesheet"> <!-- MANDATORY -->
+        <link href="/assets/css/theme.css" rel="stylesheet"> <!-- MANDATORY -->
+        <link href="/assets/css/ui.css" rel="stylesheet"> <!-- MANDATORY -->
+        <link href="/assets/css/custom.css" rel="stylesheet">
+        <link href="/assets/plugins/datatables/dataTables.min.css" rel="stylesheet">
         <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
         <!--[if lt IE 9]>
         <script src="assets/plugins/modernizr/modernizr-2.6.2-respond-1.1.0.min.js"></script>
@@ -69,12 +69,12 @@ require_once APPROOT . '/view/page_nav-sidebar.php';
 ?>
                     </ul>
                     <div class="sidebar-footer clearfix">
-                        <a class="pull-left footer-settings" href="/<?=APPBASE?>users/settings.php" data-rel="tooltip" data-placement="top" data-original-title="<?= $lblAccountSettings ?>">
+                        <a class="pull-left footer-settings" href="/users/settings.php" data-rel="tooltip" data-placement="top" data-original-title="<?= $lblAccountSettings ?>">
                             <i class="icon-settings"></i>
                         </a>
                         <a class="pull-left toggle_fullscreen" href="#" data-rel="tooltip" data-placement="top" data-original-title="Fullscreen">
                             <i class="icon-size-fullscreen"></i></a>
-                        <a class="pull-left btn-effect" href="/<?=APPBASE?>logout.php?SelLang=<?= $SelLang ?>&E=1" data-modal="modal-1" data-rel="tooltip" data-placement="top" data-original-title="<?= $lblLogout ?>">
+                        <a class="pull-left btn-effect" href="/logout.php?SelLang=<?= $SelLang ?>&E=1" data-modal="modal-1" data-rel="tooltip" data-placement="top" data-original-title="<?= $lblLogout ?>">
                             <i class="icon-power"></i></a>
                     </div>
                 </div>
@@ -103,10 +103,10 @@ require_once APPROOT . '/view/page_nav-topbar.php';
                                 </a>
                                 <ul class="dropdown-menu">
                                     <li>
-                                        <a href="/<?=APPBASE?>users/settings.php"><i class="icon-user"></i><span><?= $lblAccountSettings ?></span></a>
+                                        <a href="/users/settings.php"><i class="icon-user"></i><span><?= $lblAccountSettings ?></span></a>
                                     </li>
                                     <li>
-                                        <a href="/<?=APPBASE?>logout.php?SelLang=<?= $SelLang ?>&E=1"><i class="icon-logout"></i><span><?= $lblLogout ?></span></a>
+                                        <a href="/logout.php?SelLang=<?= $SelLang ?>&E=1"><i class="icon-logout"></i><span><?= $lblLogout ?></span></a>
                                     </li>
                                 </ul>
                             </li>
